@@ -24,6 +24,10 @@ ul {
   padding-left: 16em;
 }
 
+li {
+  height: 3em;
+}
+
 a {
   text-decoration: none;
   color: purple;
