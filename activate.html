@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <!-- 
+    Landing page for activate option in megadoomer
+    -->
+    
+    <title>The Doomcider</title>
+    <script src="modernizr-1.5.js"></script>
+    <meta name="Author" Content="Lisa Bernard" />
+    <link rel="icon" href="zim.png">
+    <link href="none.css" rel="stylesheet" type="text/css" />
+    <link href="note.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header>
+      <p>The insane sirs activate mid flight and start destroying their box. At first you don't notice but Gir does. He leaves the ship and 
+          greets the robots. Annoyed you scream, Gir who are you talking to?! Gir quickly replies, my scary new friends! No sooner does he 
+          finish when, a sir unit opens its head up, revealing a saw blade and begins to saw through Gir's head. Gir hugs it, I love you too! 
+          Having just witnessed this, you end up failing to pay attention to the Voot's course and crash into a giant donut! Gir and the sirs
+          scream, Donut!</p>
+    </header>
+    
+    <h4>Go to back to hitting auto</h4>
+    
+    <ul style="font-size:20px;">
+      <li><a href="#crash">You crash</a></li>
+      <li><a href="save.html">You regain control just in time to avoid the inevitable</a></li>
+    </ul>  
+
+    <script type="text/javascript">
+      function randomlinks(){
+      var myrandom=Math.round(Math.random()*0)
+      var links=new Array()
+      links[0]="save.html"
+ 
+      self.location=links[myrandom]
+      }
+    </script>
+    
+    <form>
+      <input type="button" value="auto" onClick="randomlinks()"
+             style="width:100px;height:30px;font-size:20px;font-family:invader, arial, times new roman;background-color:green;" />
+    </form>
+
+    <audio autoplay controls id="music" src="activate.mp3" />    
+    
+  </body>
+  
+</html>

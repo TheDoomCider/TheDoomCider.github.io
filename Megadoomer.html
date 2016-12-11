@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <!-- 
+    Landing page for Megadoomer
+    -->
+    
+    <title>The Doomcider</title>
+    <script src="modernizr-1.5.js"></script>
+    <meta name="Author" Content="Lisa Bernard" />
+    <link rel="icon" href="zim.png">
+    <link href="none.css" rel="stylesheet" type="text/css" />
+    <link href="note.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    
+    <p>The Almighty Tallest are examining a storage planet so they can send valuable equipment to the Invaders to help them on their missions. 
+        They send a Megadoomer X-3 Combat Stealth Mech to Invader Tenn to help her conquest of the planet Meekrob. They then find a compartment
+        filled with dangerous Malfunctioning SIR Units. While describing how dangerous and prone to disaster they are, they decide upon sending 
+        them to you. The packages arrive on Conveyor Belt Planet, should Smikka Smikka Smoodoo rebel by switching them?</p>
+
+    <h4>This is a demo, so some options are not available. It is recommended that you use the auto button until instructed otherwise</h4>
+        
+    <ul style="font-size:20px;">
+      <li><a href="#switch">Yes</a></li>
+      <li><a href="c.html">No</a></li>
+    </ul>  
+    
+    <script type="text/javascript">
+      function randomlinks(){
+      var myrandom=Math.round(Math.random()*0)
+      var links=new Array()
+      links[0]="c.html"
+ 
+      self.location=links[myrandom]
+      }
+    </script>
+    
+    <form>
+      <input type="button" value="auto" onClick="randomlinks()"
+             style="width:100px;height:30px;font-size:20px;font-family:invader, arial, times new roman;background-color:green;" />
+    </form>
+
+    <audio autoplay controls id="music" src="megadoomer.mp3" />
+    
+  </body>
+  
+</html>
