@@ -1,12 +1,6 @@
 header {
   text-align: center;
-}
-
-body {
-  font-family: arial, calibri, times new roman;
-  width: 30%;
-  min-width: 25%;
-  max-width: 65%;
+  font-size:  1.2em;
 }
 
 nav  {
@@ -19,8 +13,8 @@ h1 {
 }
 
 img {
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 25em;
+  margin-right: 25em;
 }
 
 nav {
