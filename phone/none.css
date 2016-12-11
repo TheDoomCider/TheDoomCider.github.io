@@ -17,6 +17,7 @@ html {
   width: 100%;
   min-width: 900px;
   max-width: 1400px;
+  background-color: rgb(193,187,173)
 }
 
 li {
