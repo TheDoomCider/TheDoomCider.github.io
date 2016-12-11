@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <!-- 
+    Landing page for megadoomer, random option
+    -->
+    
+    <title>The Doomcider</title>
+    <script src="modernizr-1.5.js"></script>
+    <meta name="Author" Content="Lisa Bernard" />
+    <link rel="icon" href="zim.png">
+    <link href="none.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  
+<video width="320" height="0" autoplay controls>
+  <source src="random.mp4" type="video/mp4">
+</video>
+
+    <header>
+      <h3>A vortex suddenly opens behind the helicopter, sucking it inside before closing! You and Gir are so busy fighting over the controls,
+          you don&#39t even notice.</h3>
+    </header>
+    
+    <ul style="font-size:20px;">
+      <li><a href="#bored">Gir gets bored</a></li>
+      <li><a href="#wreck">You notice that the sirs are wrecking the ship</a></li>
+      <li><a href="join.html">The sirs join in the fight</a></li>
+    </ul>  
+ 
+<script type="text/javascript">
+  function randomlinks(){
+  var myrandom=Math.round(Math.random()*0)
+  var links=new Array()
+  links[0]="join.html"
+ 
+  self.location=links[myrandom]
+}
+</script>
+<form>
+  <input type="button" value="auto" onClick="randomlinks()"
+  style="width:100px;height:30px;font-size:20px;font-family:invader, arial, times new roman;background-color:green;">
+</form> 
+ 
+  </body>
+  
+</html>

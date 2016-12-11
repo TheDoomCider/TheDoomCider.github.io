@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <!-- 
+    Landing page for option in megadoomer
+    -->
+    
+    <title>The Doomcider</title>
+    <script src="modernizr-1.5.js"></script>
+    <meta name="Author" Content="Lisa Bernard" />
+    <link rel="icon" href="zim.png">
+    <link href="none.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header>
+      <h3>The sirs see you and Gir fighting. They think it looks fun and decide to join in! Things get crowded when the sirs crash in through 
+          the windshield and begin fighting!</h3>
+    </header>
+    
+    <ul style="font-size:20px;">
+      <li><a href="#scream">You scream for everyone to stop</a></li>
+      <li><a href="#pushed">You get pushed to the side while the robots battle it out</a></li>
+      <li><a href="king.html">The robots accept Gir as their leader</a></li>
+    </ul>  
+
+<script type="text/javascript">
+  function randomlinks(){
+  var myrandom=Math.round(Math.random()*0)
+  var links=new Array()
+  links[0]="king.html"
+ 
+  self.location=links[myrandom]
+}
+</script>
+<form>
+  <input type="button" value="auto" onClick="randomlinks()"
+    style="width:100px;height:30px;font-size:20px;font-family:invader, arial, times new roman;background-color:green;">
+</form> 
+
+<video width="320" height="0" autoplay controls>
+  <source src="join.mp4" type="video/mp4">
+</video>      
+      
+  </body>
+  
+</html>

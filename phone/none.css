@@ -1,0 +1,73 @@
+body {
+  font-family: arial, calibri, times new roman;
+  width: 25%;
+  min-width: 35%;
+  max-width: 80%;
+}
+
+h3, h1 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 1em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+li {
+  height: 3em;
+}
+
+ul {
+  list-style-image: url(bee.png);
+  text-decoration: none;
+  padding-left: 2em;
+}
+
+html {
+  background-image: url(zb.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:visited {
+  color: rgb(183,94,183);
+}
+
+a:hover {
+  background-color: pink;
+  color: rgb(186, 0, 80);
+  font-weight: bold;
+}
+
+form {
+  padding-left: 2em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+video {
+  margin-top: 3em;
+  padding-left: 2em;
+}
+
+h4 {
+  padding-top: 1em;
+}
