@@ -2,9 +2,9 @@ body {
   font-family: arial, calibri, times new roman;
 }
 
-h3, p, h1 {
-  padding-left: 10em;
-  padding-right: 10em;
+h3, h1, h4 {
+  padding-left: 2em;
+  padding-right: 2em;
   font-weight: normal;
   font-size: 1.5em;
 }
@@ -17,16 +17,22 @@ html {
   width: 100%;
   min-width: 900px;
   max-width: 1400px;
+  background-color: rgb(193,187,173)
+}
+
+li {
+  height: 3em;
 }
 
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
-  padding-left: 16em;
+  padding-left: 9em;
 }
 
 html {
   background-image: url(zb.png);
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -46,7 +52,7 @@ a:hover {
 }
 
 form {
-  padding-left: 19em;
+  padding-left: 10em;
   margin-top: 1em;
 }
 
@@ -55,7 +61,7 @@ form.special {
   margin-top: 1em;
 }
 
-audio {
-  margin-top: 0.7em;
-  padding-left: 16em;
+video {
+  margin-top: 5em;
+  padding-left: 9em;
 }
