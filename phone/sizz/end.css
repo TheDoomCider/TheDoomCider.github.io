@@ -1,0 +1,33 @@
+#am {
+  list-style-image: url(am.png);
+}
+
+#pf {
+  list-style-image: url(pg.png);
+}
+
+#sc {
+  list-style-image: url(sc.png);
+}
+
+#me {
+  list-style-image: url(me.png);
+}
+
+#kf {
+  list-style-image: url(kf.png);
+}
+
+#ka {
+  list-style-image: url(ka.png);
+}
+
+h4 {
+  padding-top: 1em;
+  padding-left: 17em;
+}
+
+ul {
+  padding-left: 20em;
+}
+

@@ -1,6 +1,10 @@
 body {
   font-family: arial, calibri, times new roman;
-  font-size: 3em;
+  font-size: 1.5em;
+}
+
+header {
+  background-color: grey;
 }
 
 h3, p, h1 {
