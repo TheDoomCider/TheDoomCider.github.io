@@ -2,6 +2,10 @@
   list-style-image: url(me.png);
 }
 
+#sp {
+  list-style-image: url(sp.jpg);
+}
+
 #ch {
   list-style-image: url(ch.jpg);
 }
