@@ -1,0 +1,29 @@
+#nd {
+  list-style-image: url(me.png);
+}
+
+#ch {
+  list-style-image: url(ch.jpg);
+}
+
+#g {
+  list-style-image: url(g.jpg);
+}
+
+#pf {
+  list-style-image: url(pf.png);
+}
+
+h4 {
+  padding-top: 1em;
+  padding-left: 17em;
+}
+
+ul {
+  padding-left: 20em;
+}
+
+li {
+  font-weight: bold;
+  font-size: 1em;
+}

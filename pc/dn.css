@@ -1,0 +1,61 @@
+ul {
+  list-style-image: url(dd.png);
+}
+
+html {
+  background-image: url(db.png);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, h1, audio {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+#error {
+  color: red;
+  background-color: black;
+  font-weight: bold;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+ul {
+  text-decoration: none;
+  padding-left: 16em;
+}
+
+html {
+  background-repeat: no-repeat;
+}
+
+a:visited {
+  color: rgb(0,162,232);
+}
+
+audio {
+  margin-top: 2em;
+}
