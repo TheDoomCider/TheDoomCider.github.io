@@ -21,14 +21,20 @@ nav {
   list-style-image: url(irken.png);
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
   text-decoration: none;
   color: rgb(183,94,183);
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz:visited {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.keef, a.sizz:visited {
   color: rgb(128,128,128);
 }  
+
+a.keef:hover{
+  background-color: lightblue;
+  color: orange;
+  font-weight: bold;
+}
   
 a.zim:hover {
   background-color: pink;

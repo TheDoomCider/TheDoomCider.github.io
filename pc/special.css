@@ -1,3 +1,8 @@
+embedded {
+  background-color: black;
+  color: black;
+}
+
 html {
   width: 90%;
   min-width: 1300px;
@@ -29,11 +34,6 @@ a.zim {
   margin-left: 5em;
 }
 
-a.red {
-  margin-left: 10em;
-  margin-right: 2em;
-}
-
 h1 {
   margin-left: 4em;
   margin-right: 4em;
@@ -41,33 +41,32 @@ h1 {
   font: 2em;
 }
 
+a.keef {
+  text-decoration: none;
+}
+
 a.zimi {
-  margin-left: 5em;
+  margin-left: 4.5em;
 }
 
-a.redi {
-  margin-left: 10em;
-  margin-right: 4em;
+a.tak {
+  margin-left: 9em;
 }
 
-a.sizzi {
-  margin-left: 4em;
-}
-
-a.sizz {
-  margin-left: 5em;
+a.taki {
+  margin-left: 9em;
 }
 
 a {
   color: white;
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
   text-decoration: none;
   color: rgb(183,94,183);
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz:visited {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef:visited {
   color: rgb(128,128,128);
 }
 
@@ -116,6 +115,12 @@ a.purple:hover {
 a.sizz:hover{
   background-color: purple;
   color: black;
+  font-weight: bold;
+}
+
+a.keef:hover{
+  background-color: white;
+  color: orange;
   font-weight: bold;
 }
 
