@@ -21,7 +21,7 @@ html {
 }
 
 ul {
-  list-style-image: url(.png);
+  list-style-image: url(m.png);
   text-decoration: none;
   padding-left: 16em;
 }
