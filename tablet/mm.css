@@ -1,0 +1,62 @@
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, p, h1 {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: white;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+ul {
+  list-style-image: url(.png);
+  text-decoration: none;
+  padding-left: 16em;
+}
+
+html {
+  background-image: url(mm1.png);
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+
+form {
+  padding-left: 19em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+audio {
+  margin-top: 0.7em;
+  padding-left: 16em;
+}

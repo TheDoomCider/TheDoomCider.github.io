@@ -50,28 +50,30 @@ a.zimi {
 }
 
 a.gir {
-  margin-left: 1em;
+  margin-left: 5em;
 }
 
-a.tak {
-  margin-left: 9em;
-}
-
-a.taki {
-  margin-left: 9em;
+a.giri {
+  margin-left: 5em;
 }
 
 a {
   color: white;
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef, a.mm {
   text-decoration: none;
   color: rgb(183,94,183);
 }
 
-a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef:visited {
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef, a.mm:visited {
   color: rgb(128,128,128);
+}
+
+a.mm:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
 }
 
 a.zim:hover {
