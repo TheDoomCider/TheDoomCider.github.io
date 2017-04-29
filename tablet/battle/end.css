@@ -20,14 +20,15 @@
 
 h4 {
   padding-top: 1em;
-  padding-left: 10em;
+  padding-left: 12em;
 }
 
 ul {
-  padding-left: 5em;
+  padding-left: 10em;
 }
 
 li {
   font-weight: bold;
   font-size: 1em;
+  width: 50%;
 }
