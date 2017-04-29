@@ -40,16 +40,6 @@ a:hover {
   font-weight: bold;
 }
 
-form {
-  padding-left: 19em;
-  margin-top: 1em;
-}
-
-form.special {
-  padding-left: 0em;
-  margin-top: 1em;
-}
-
 audio {
   margin-top: 0.7em;
   padding-left: 16em;
