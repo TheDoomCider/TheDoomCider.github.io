@@ -1,0 +1,45 @@
+h3, h4, p, h1 {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  padding-left: 10em;
+  font-weight: bold;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+ul {
+  text-decoration: none;
+  padding-left: 7em;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: rgb(0,162,232);
+}
+
+a:hover {
+  background-color: lightblue;
+  font-weight: bold;
+}
