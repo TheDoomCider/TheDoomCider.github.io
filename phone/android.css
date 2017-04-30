@@ -2,6 +2,23 @@ body {
   font-size:  1.2em;
 }
 
+nav  {
+  width: 10em;
+}
+
+h4 {
+  margin-left: 7em;
+}
+
+h1 {
+  margin: 0em;
+  padding: 0em;
+}
+
+nav {
+  list-style-image: url(irken.png);
+}
+
 a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
   text-decoration: none;
   color: rgb(183,94,183);
