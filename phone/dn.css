@@ -25,9 +25,7 @@ ul {
 
 html {
   background-image: url(db.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-repeat: no-repeat;  
 }
 
 a {
