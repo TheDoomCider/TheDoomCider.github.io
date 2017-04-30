@@ -2,7 +2,7 @@ body {
   font-family: arial, calibri, times new roman;
 }
 
-h3, p, h1 {
+h3, p, h1, h4 {
   padding-left: 5em;
   padding-right: 10em;
   font-weight: normal;
