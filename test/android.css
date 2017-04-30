@@ -1,0 +1,85 @@
+body {
+  font-size:  1.2em;
+}
+
+nav  {
+  width: 10em;
+}
+
+h1 {
+  margin-left: 112%;
+  text-decoration: none;
+}
+
+img {
+  padding-top: 3em;
+  margin-left: 115%;
+  margin-right: 115%;
+}
+
+nav {
+  list-style-image: url(irken.png);
+}
+
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
+  text-decoration: none;
+  color: rgb(183,94,183);
+}
+
+a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.keef, a.sizz:visited {
+  color: rgb(128,128,128);
+}  
+
+a.keef:hover{
+  background-color: lightblue;
+  color: orange;
+  font-weight: bold;
+}
+  
+a.zim:hover {
+  background-color: pink;
+  color: rgb(81, 36, 81);
+  font-weight: bold;
+}
+
+a.dib:hover {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+
+a.gaz:hover {
+  background-color: purple;
+  color: black;
+  font-weight: bold;
+}
+
+a.gir:hover {
+  background-color: grey;
+  color: rgb(135,206,250);
+  font-weight: bold;
+}
+
+a.tak:hover {
+  background-color: rgb(191,255,176);
+  color: purple;
+  font-weight: bold;
+}
+
+a.red:hover {
+  background-color: red;
+  color: gray;
+  font-weight: bold;
+}
+
+a.purple:hover {
+  background-color: purple;
+  color: grey;
+  font-weight: bold;
+}  
+
+a.sizz:hover {
+  background-color: purple;
+  color: black;
+  font-weight: bold;
+}  
