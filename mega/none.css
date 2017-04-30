@@ -21,6 +21,8 @@ html {
 
 li {
   height: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 ul {
