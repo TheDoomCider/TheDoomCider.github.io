@@ -13,13 +13,6 @@ h5 {
   padding-left: 30em;
 }
 
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
-  background-color: rgb(193,187,173)
-}
-
 li {
   height: 3em;
 }
@@ -27,13 +20,14 @@ li {
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
-  padding-left: 9em;
+  padding-left: 4em;
 }
 
 html {
   background-image: url(zb.png);
   background-position: top;
   background-repeat: no-repeat;
+  background-color: rgb(133,132,129);
 }
 
 a {
@@ -61,7 +55,7 @@ form.special {
   margin-top: 1em;
 }
 
-video {
-  margin-top: 5em;
-  padding-left: 9em;
+audio {
+  margin-top: 1em;
+  padding-left: 2em;
 }

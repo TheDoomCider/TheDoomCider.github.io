@@ -25,7 +25,8 @@ ul {
 
 html {
   background-image: url(db.png);
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+background-color: rgb(240,255,255);  
 }
 
 a {

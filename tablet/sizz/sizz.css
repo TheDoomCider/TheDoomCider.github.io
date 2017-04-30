@@ -33,6 +33,7 @@ html {
   background-image: url(back.png);
   background-position: top;
   background-repeat: no-repeat;
+  background-color: rgb(137,1,23);
 }
 
 form {
