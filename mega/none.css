@@ -15,15 +15,12 @@ h5 {
 
 li {
   height: 3em;
-  padding-left: 1em;
-  margin-right: 2em;
-  margin-left: 0em;
 }
 
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
-  padding-left: 9em;
+  padding-left: 4em;
 }
 
 html {
