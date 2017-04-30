@@ -15,7 +15,7 @@ h5 {
 
 li {
   height: 3em;
-  margin-left: 2em;
+  padding-left: 1em;
   margin-right: 2em;
 }
 
@@ -58,5 +58,5 @@ form.special {
 
 audio {
   margin-top: 1em;
-  padding-left: 9em;
+  padding-left: 2em;
 }
