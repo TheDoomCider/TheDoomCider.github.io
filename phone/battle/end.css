@@ -37,4 +37,5 @@ object {
   height: 50em;
   overflow: auto;
   padding: none;
+  margin-left: 1em;
 }
