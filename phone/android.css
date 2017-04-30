@@ -6,13 +6,14 @@ nav  {
   width: 10em;
 }
 
-h4 {
-  margin-left: 7em;
+h1 {
+  margin-left: 17em;
+  text-decoration: none;
 }
 
-h1 {
-  margin: 0em;
-  padding: 0em;
+img {
+  margin-left: 25em;
+  margin-right: 25em;
 }
 
 nav {
