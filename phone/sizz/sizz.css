@@ -3,7 +3,7 @@ body {
 }
 
 h3, h1, h4 {
-  padding-left: 1em;
+  padding-left: 2em;
   padding-right: 22em;
   font-weight: normal;
   font-size: 1.5em;
@@ -26,7 +26,7 @@ li {
 ul {
   list-style-image: url(sizz.png);
   text-decoration: none;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 html {
