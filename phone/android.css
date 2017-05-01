@@ -2,18 +2,9 @@ body {
   font-size:  1.2em;
 }
 
-nav  {
-  width: 10em;
-}
-
 h1 {
-  margin-left: 112%;
+  text-align: center;
   text-decoration: none;
-}
-
-img {
-  margin-left: 115%;
-  margin-right: 115%;
 }
 
 nav {
