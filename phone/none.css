@@ -55,7 +55,7 @@ form.special {
   margin-top: 1em;
 }
 
-audio {
+audio, video {
   padding-top: 5em;
   padding-left: 2em;
 }
