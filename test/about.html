@@ -13,24 +13,40 @@
       text-align: center;
       background-color: black;
       margin: -1.5em;
+      display: block;
       }
       
       body {
+      font-family: calibri, arial,times new roman;
       background-image: url(back3.png);
-      background-repeat: no-repeat;
       background-color: rgb(32,32,32);
       width: 97.8%;
       }
       
-      div {
-      width: 60%;
-      background: rgb(25,25,25);
-      display: block;
-      margin: auto;
+      #selection {
+      width: 15%;
+      float: left;
+      margin-left: 1em;
+      background: black;
       margin-top: 3em;
+      -webkit-border-radius: 31px 20px 20px 20px;
+      -moz-border-radius: 31px 20px 20px 20px;
+      border-radius: 31px 20px 20px 20px;
+      padding-right: 1em;
+      position: fixed;
+      top: 1em;
+      z-index: -3;
       }
       
-      p, h3 {
+      #master {
+      width: 60%;
+      float: right;
+      background: rgb(25,25,25);
+      margin-top: 3em;
+      margin-right: 20%;
+      }
+      
+      p {
       color: white;
       padding-left: 2em;
       padding-right: 2em;
@@ -43,7 +59,20 @@
       h3 {
       text-align: center;
       padding-top: 1em;
+      color: rgb(81,254,0);
       }
+      
+      #list1, a {
+      color: rgb(81,254,0);
+      }
+      
+      li {
+      padding-bottom: 0.5em;
+      }
+      
+      img.py {
+      width: 90%;
+      padding-left: 5%}
     </style>
   
     <header>
@@ -59,18 +88,47 @@
       </map>
     </header>
     
-    <div>
-    <h3>Where did the idea come from?</h3>
+    <div id="selection">
+    
+      <ul id="list1">
+        <li><a href="#idea">Where did the idea come from?</a></li>
+        <li><a href="#name">Where did the name come from?</a></li>
+        <li><a href="#HTML">Why switch from Python to HTML?</a></li>
+        <li><a href="#narration">What inspired you to include character narrators?</a></li>
+        <li><a href="#icons">Why are the characters silhouettes?</a></li>
+      </ul>
+      
+    </div>
+    
+    <div id="master">
+    
+    <h3 id="idea">Where did the idea come from?</h3>
    
-    <p>Just after I got into Invader Zim I started discovering some of the different fan projects linked to it. I thought it was amazing that fans were make these contributions to the show. I wanted to contribute to the fandom as well with my own project but didn’t have any ideas.</p>
+    <p>Just after I got into Invader Zim I started discovering some of the different fan projects linked to it. I liked that fans were make these contributions to the show. I wanted to contribute to the fandom as well with my own project but didn’t have any ideas.</p>
     
-    <p>I had just started taking Python as part of my college course. The instructor was lecturing about if statements. He compared them to a choose your own adventure story. That didn’t give me the idea right off the bat. Eventually I started on Python based proto-type called invader_zim _sim. It featured a mock character list, and an incomplete version of Megadoomer. Unfortunately, it took forever to program and compatibility was a major issue.</p>
+    <p>I had just started taking Python as part of my Information Technology course. The instructor was lecturing about if statements, he compared them to a choose your own adventure game. Eventually I started on Python based proto-type called invader_zim _sim. It featured a mock character list, and an incomplete version of Megadoomer. Unfortunately, it took forever to program and compatibility was a major issue.</p>
     
-    <p>Rather than giving up I created a trailer for it and came up with a name. I called it The DoomCider, a play on doom and decider. When I published the trailer, I was surprised that people were excited to play it. So, I worked on a compatibility solution. Fortunately, I was also taking web design.</p>
+    <img class="py" src="sim.png" alt="proto-type" width="90%"/>
     
-    <p>The transition from if statements to separate web pages, dramatically simplified and sped up development. Despite the speed boost Megadoomer was still taking forever to complete and I began growing impatient with my miniscule progress. After about a month of development, I finally got to an ending. In ended creating two others and turn the incomplete page maze into a demo.</p>
+    <h3 id="name">Where did the name come from?</h3>
     
-    <p id="bottom">Before it released, I recalled a video I had watched one month prior to creation of The DoomCider. It was published by Shining Cecil and involved him read the Pokemon hand book in Zim’s voice. It stuck in my memory and sparked the idea of character narrators.</p>
+    <p>I created a trailer for my proto-type and came up with a name. I called it The DoomCider, a play on doom and decider. After publishing the trailer, I was surprised that people were excited to play it.</p>
+    
+    <h3 id="html">Why switch from Python to HTML?</h3>
+    
+    <p>I hated web development at the time. I only switch to it for compatability reasons. The transition dramatically simplified, sped up development and made my want to a web developer. Inspite of this Megadoomer was still taking forever to complete and I began growing impatient with my miniscule progress. After about a month of development, I finally got to an ending. In ended creating two others and turn the incomplete page maze into a demo.</p>
+    
+    <img class="py" src="demo.png" alt="demo" />
+    
+    <h3 id="narration">What inspired you to include character narrators?</h3>
+    
+    <p id="bottom">Prior to releasing the demo, I recalled a video I had watched about a month prior to starting this project. It was published by Shining Cecil and involved him reading the Pokemon hand book in Zim’s voice. It stuck in my memory and sparked the idea of character narrators.</p>
+    
+    <h3 id="icons">Why are the characters silhouettes?</h3>
+    
+    <p>When I first started developing the HTML version of the game, I googled stock images. I had to of course change them before I released the demo. At the time I had very limited art skills so I created some basic silhouettes in paint. Shortly after I changed the icons, Peter Fields offered to improve them. His designs are what is featured in the current selection menu, although I did do the Keef's icon/animation.</p>
+    
+    <img src="icons.png" width="60%" style="padding-left: 20%;" alt="before/after select menu" />
 
     </div>
 
