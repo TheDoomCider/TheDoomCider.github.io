@@ -15,6 +15,8 @@
       background-color: black;
       margin: -1.5em;
       margin-bottom: 2em;
+      display: block;
+      padding-left: 15%;
       -webkit-text-size-adjust: 100%;
       }
       
@@ -89,12 +91,26 @@
       margin-top: 5em;
       padding-bottom: 1em;
       }
+      
+      #social {
+      float: right;
+      left: 0px;
+      top: 0px;
+      z-index: 1000;
+      padding-top: 1em;
+      positon: relative;
+      left: -3em;
+      }
     </style>
   
     <header>
-      <h5><img src="doom.png" alt="The doomcider logo" usemap="#menu"/></h5>
+      <div id="social">
+          <img src="fb.png" alt="facebook"/><img src="yt.png" alt="youtube"/><img src="am.png" alt="amino"/>
+      </div>
 
-       <div id="menu">
+      <h5><img src="doom.png" alt="The doomcider logo" usemap="#menu"/></h5>
+      
+      <div id="menu">
         <a href="index.html"/><img id="home" class="button" src="home.png" alt="button"/></a><a href="play.html"/><img class="button" src="play.png" alt="button"/></a><a href="about.html"/><img id="about" class="button" src="about.png" alt="button"/></a>
       </div>
     </header>
