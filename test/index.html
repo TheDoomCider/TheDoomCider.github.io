@@ -31,6 +31,25 @@
       -webkit-text-size-adjust: 100%;
       }
       
+      #menu {
+      position: relative;
+      background-color: black;
+      width: 99%;
+      top: 1em;
+      left: -1em;
+      padding-left: 1em;
+      padding-top: 1em;
+      padding-right: 2.2em;
+      }
+      
+      img.button {
+      padding-left: 19%;
+      }
+      
+      #home {
+      padding-left: 18%;
+      }
+      
       #video {
       background-image: url(screen.png);
       background-repeat: no-repeat;
@@ -69,14 +88,9 @@
     <header>
       <h5><img src="doom.png" alt="The doomcider logo" usemap="#menu"/></h5>
 
-      <map id="menu" name = "menu">
-        <area shape= "rect" coords="937,11,997,65" href="http://aminoapps.com/page/invaderzim/5471079/thedoomcider" target="new" alt="amino" />
-        <area shape= "rect" coords="870,16,931,57" href="https://www.youtube.com/channel/UCugba6qGABt4_aWgpV5mTuQ" target="new" alt="youtube" />
-        <area shape= "rect" coords="798,8,862,69" href="https://www.facebook.com/InvaderZimTheDoomCider/" target="new" alt="facebook" />
-        <area shape= "rect" coords="137,191,209,228" href="index.html" alt="Home" />
-        <area shape= "rect" coords="427,191,561,228" href="play.html" alt="PC/Mac" />
-        <area shape= "rect" coords="776,191,923,228" href="about.html" alt="Tablet" />
-      </map>
+       <div id="menu">
+        <a href="index.html"/><img id="home" class="button" src="home.png" alt="button"/></a><a href="play.html"/><img class="button" src="play.png" alt="button"/></a><a href="about.html"/><img class="button" src="about.png" alt="button"/></a>
+      </div>
     </header>
     
     <div id="text">
