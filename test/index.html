@@ -20,12 +20,7 @@
       #menu {
       position: relative;
       background-color: black;
-      width: 99%;
-      top: -2em;
-      left: -2em;
-      padding-left: 1em;
-      padding-top: 1em;
-      padding-right: 2.2em;
+      top: 10em;
       }
       
       img.button {
@@ -83,8 +78,17 @@
       padding-bottom: 8em;
       background-color: black;
       margin-top: -0.7em;
-      margin-left: -1.22em;
-      width: 102%;
+      margin-left: -0.5em;
+      width: 101%
+      }
+      
+      #social {
+      width: 98.8%;
+      padding-left: 1em;
+      }
+      
+      #im, #menu {
+      margin-left: -1em;
       }
      
     </style>
@@ -92,13 +96,13 @@
     <header>
       <h4>
         <div id="social">
-          <img src="fb.png" alt="facebook"/><img src="yt.png" alt="youtube"/><img src="am.png" alt="amino"/>
+          <div #im><img id="im" src="fb.png" alt="facebook"/><img src="yt.png" alt="youtube"/><img src="am.png" alt="amino"/></div>
+          <div id="menu">
+            <a href="index.html"/><img id="home" class="button" src="home.png" alt="button"/></a><a href="play.html"/><img class="button" src="play.png" alt="button"/></a><a href="about.html"/><img id="about" class="button" src="about.png" alt="button"/></a>
+          </div>
         </div>
       </h4>
       
-      <div id="menu">
-        <a href="index.html"/><img id="home" class="button" src="home.png" alt="button"/></a><a href="play.html"/><img class="button" src="play.png" alt="button"/></a><a href="about.html"/><img id="about" class="button" src="about.png" alt="button"/></a>
-      </div>
     </header>
     
     <div id="text">
