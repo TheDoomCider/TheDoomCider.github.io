@@ -24,18 +24,6 @@
       margin-bottom: 2em;
       }
       
-      img {
-        max-width: none;
-      }
-      
-      body {
-      font-family: calibri, arial, times new roman;
-      background-image: url(back.png);
-      background-repeat: no-repeat;
-      background-color: rgb(32,32,32);
-      width: 97.99%;
-      }
-      
       h3, h4 {
       text-align: center;
       }
@@ -43,35 +31,79 @@
       h3 {
       color: rgb(81,254,0);
       font-size: 2em;
+      margin-top: 2em;
       }
       
       h4 {
-      margin-top: 6em;
+      margin-top: 4em;
       }
-     </style>
-
-    <header>
-      <h5><img src="doom.png" alt="The doomcider logo" usemap="#menu"/></h5>
+     
+      body {
+      font-family: calibri, arial, times new roman;
+      background-image: url(back2.png);
+      background-repeat: no-repeat;
+      background-color: rgb(32,32,32);
+      width: 99.3%;
+      }
+      
+      #menu {
+      position: relative;
+      background-color: black;
+      top: 9.6em;
+      }
+      
+      img.button {
+      margin-left: 4.85%;
+      margin-right: 4.85%;
+      }
+      
+      #home {
+      margin-right: 4.85%;
+      }
+      
+      #about {
+      margin-right: 2%;
+      }
+      
+      #h {
+      background-image: url(doom.png);
+      background-repeat: no-repeat;
+      background-position: center top;
+      padding-bottom: 8.35em;
+      background-color: black;
+      margin-top: -0.7em;
+      margin-left: -0.5em;
+      display: block;
+      }
+     
+    img.space {
+      margin-left: 0.4em;
+      }
+     
+    #center {
+      text-align: center;
+      }
+     
+    </style>
     
-     <map name = "menu">
-        <area shape= "rect" coords="937,11,997,65" href="http://aminoapps.com/page/invaderzim/5471079/thedoomcider" target="new" alt="amino" />
-        <area shape= "rect" coords="870,16,931,57" href="https://www.youtube.com/channel/UCugba6qGABt4_aWgpV5mTuQ" target="new" alt="youtube" />
-        <area shape= "rect" coords="798,8,862,69" href="https://www.facebook.com/InvaderZimTheDoomCider/" target="new" alt="facebook" />
-        <area shape= "rect" coords="137,191,209,228" href="index.html" alt="Home" />
-        <area shape= "rect" coords="427,191,561,228" href="play.html" alt="PC/Mac" />
-        <area shape= "rect" coords="776,191,923,228" href="about.html" alt="Tablet" />
-      </map>
+    <header>
+      <div id="h">
+        <div id="social">
+          <div #im><a href="https://www.facebook.com/InvaderZimTheDoomCider/" target="new"><img class="space" src="fb.png" alt="facebook"/></a><a href="https://www.youtube.com/channel/UCugba6qGABt4_aWgpV5mTuQ" target="new"><img class="space" src="yt.png" alt="youtube"/></a><a href="http://aminoapps.com/page/invaderzim/5471079/thedoomcider" target="new"><img class="space" src="am.png" alt="amino"/></a></div>
+          <div id="menu">
+            <h5 id="center">
+              <a href="index.html"/><img id="home" class="button" src="home.png" alt="button"/></a><a href="play.html"/><img class="button" src="play.png" alt="button"/></a><a href="about.html"/><img id="about" class="button" src="about.png" alt="button"/></a>
+            </h5>
+          </div>
+        </div>
+      </div>
     </header>
     
     <h3>What device are you using?</h3>
     
-    <h4><img src="com.png" usemap="#menu2"/></h4>
-    
-    <map name = "menu2">
-        <area shape= "rect" coords="10,7,141,207" href="phone/phone.html" alt="Phone" />
-        <area shape= "rect" coords="212,17, 416,209" href="pc/pcmac.html" alt="PC/Mac" />
-        <area shape= "rect" coords="481,18,742,201" href="tablet/tablet.html" alt="Tablet" />
-      </map>
+    <h4><div id="version">
+      <a href="phone/phone.html"><img src="phone.png"/></a><a href="pc/pcmac.html"/><img src="computer.png"/></a><a href="tablet/tablet.html"><img src="tablet.png"/></a>
+    </div></h4>
     
   </body>
   
