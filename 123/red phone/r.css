@@ -21,6 +21,8 @@ a:visited {
 }
 
 body {
+  background-position: left top;
+  background-repeat: no-repeat;
   font-family: arial, calibri, times new roman;
   background-color: rgba(255,255,255,0.6);
 }
@@ -37,8 +39,6 @@ h5 {
 }
 
 html {
-  background-position: left top;
-  background-repeat: no-repeat;
   background-color: rgb(205,205,205);
 }
 
