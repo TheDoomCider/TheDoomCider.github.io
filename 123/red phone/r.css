@@ -1,8 +1,8 @@
 ul {
   list-style-image: url(tallr.png);
   text-decoration: none;
-  padding-left: 3em;
-  padding-right: 2em;
+  padding-left: 2em;
+  padding-right: 1em;
 }
 
 a {
@@ -28,8 +28,8 @@ body {
 }
 
 h3, h1, h4 {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: normal;
   font-size: 1.5em;
 }
