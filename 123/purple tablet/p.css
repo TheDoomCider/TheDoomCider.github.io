@@ -1,6 +1,7 @@
 ul {
   list-style-image: url(tallp.png);
   text-decoration: none;
+  padding-left: 9em;
 }
 
 html {
@@ -24,8 +25,8 @@ body {
 }
 
 h3, h1, audio {
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 2em;
+  padding-right: 2em;
   font-weight: normal;
   font-size: 1.5em;
 }
@@ -35,26 +36,12 @@ h5 {
 }
 
 html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
   background-color: rgb(205,205,205);
-}
-
-ul {
-  padding-left: 16em;
-}
-
-form {
-  padding-left: 19em;
-  margin-top: 1em;
-}
-
-form.special {
-  padding-left: 0em;
-  margin-top: 1em;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 audio {
-  margin-top: 2em;
+  margin-top: 1em;
+  padding-left: 9em;
 }
