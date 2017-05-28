@@ -9,10 +9,6 @@ h3, h1, h4 {
   font-size: 1.5em;
 }
 
-h5 {
-  padding-left: 30em;
-}
-
 html {
   width: 100%;
   min-width: 900px;
@@ -50,6 +46,6 @@ a:hover {
 }
 
 audio {
-  margin-top: 5em;
+  margin-top: 1em;
   padding-left: 9em;
 }
