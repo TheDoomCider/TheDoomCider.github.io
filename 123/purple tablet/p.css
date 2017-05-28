@@ -4,10 +4,6 @@ ul {
   padding-left: 9em;
 }
 
-html {
-  background-image: url(Capture.png)
-}
-
 a {
   text-decoration: none;
   color: purple;
@@ -29,10 +25,6 @@ h3, h1, audio {
   padding-right: 2em;
   font-weight: normal;
   font-size: 1.5em;
-}
-
-h5 {
-  padding-left: 30em;
 }
 
 html {
