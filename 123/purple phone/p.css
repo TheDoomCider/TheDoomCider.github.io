@@ -1,10 +1,6 @@
 ul {
-  list-style-image: url(tallp.png);
+  list-style-image: url(tallp1.png);
   text-decoration: none;
-}
-
-html {
-  background-image: url(Capture.png)
 }
 
 a {
