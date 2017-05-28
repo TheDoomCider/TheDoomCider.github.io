@@ -1,0 +1,60 @@
+ul {
+  list-style-image: url(tallp.png);
+  text-decoration: none;
+}
+
+html {
+  background-image: url(Capture.png)
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+  background-color: rgba(255,255,255,0.6);
+}
+
+h3, h1, audio {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+  background-color: rgb(205,205,205);
+}
+
+ul {
+  padding-left: 16em;
+}
+
+form {
+  padding-left: 19em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+audio {
+  margin-top: 2em;
+}
