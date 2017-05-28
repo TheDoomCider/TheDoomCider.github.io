@@ -1,5 +1,6 @@
 li {
   list-style-image: url(tallp1.png);
+  height: 3em;
 }
 
 a {
