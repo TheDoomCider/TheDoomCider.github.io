@@ -5,6 +5,10 @@ ul {
   font-weight: bold;
 }
 
+li {
+  height: 3em;
+}
+
 a {
   text-decoration: none;
   color: red;
