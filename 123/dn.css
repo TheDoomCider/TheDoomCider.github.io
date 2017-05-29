@@ -1,0 +1,45 @@
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, h1, h4 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+li {
+  height: 3em;
+}
+ 
+ul {
+  list-style-image: url(dd.png);
+  text-decoration: none;
+  padding-left: 2em;
+}
+
+html {
+  background-image: url(db.png);
+  background-repeat: no-repeat;
+background-color: rgb(240,255,255);  
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: rgb(0,162,232);
+}
+
+a:hover {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+audio {
+  margin-top: 1em;
+  padding-left: 1em;
+}
