@@ -8,7 +8,7 @@ h1 {
 }
 
 nav {
-  list-style-image: url(irken.png);
+  margin-left: -4em;
 }
 
 a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
