@@ -7,11 +7,6 @@ h1 {
   text-decoration: none;
 }
 
-h1 {
-  width: 80%;
-  padding-left: 10%;
-}
-
 a.zim, a.dib, a.gaz, a.tak, a.gir, a.purple, a.red, a.sizz, a.keef {
   text-decoration: none;
   color: rgb(183,94,183);
@@ -25,10 +20,6 @@ a.keef:hover{
   background-color: lightblue;
   color: orange;
   font-weight: bold;
-}
-
-a.purple {
-  margin-left: -2em;
 }
   
 a.zim:hover {
