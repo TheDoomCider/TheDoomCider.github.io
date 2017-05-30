@@ -1,0 +1,53 @@
+ul {
+  list-style-image: url(tallr.png);
+  text-decoration: none;
+  padding-left: 16em;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  background-color: red;
+  color: gray;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+  background-color: rgba(255,255,255,0.6);
+}
+
+h3, h1, audio {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+  background-color: rgb(205,205,205);
+}
+
+form {
+  padding-left: 19em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+audio {
+  margin-top: 1em;
+}

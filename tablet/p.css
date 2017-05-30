@@ -1,0 +1,42 @@
+ul {
+  list-style-image: url(tallp.png);
+  text-decoration: none;
+  padding-left: 9em;
+}
+
+li {
+  height: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, h1, audio {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+html {
+  background-image: url(p.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+audio {
+  margin-top: 1em;
+  padding-left: 9em;
+}

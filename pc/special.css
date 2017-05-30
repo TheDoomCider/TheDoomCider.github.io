@@ -9,57 +9,36 @@ html {
   min-width: 1300px;
   max-width: 1500px;
   background-color: black;
+  font-family: invader, calibri, times new roman;
 }
 
 h3 {
   color: rgb(141,190,64);
   line-height: 0em;
   font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
 }
 
 h4 {
   color: rgb(237,40,145);
   line-height: 0em;
   font-size: 1.3em;
+  text-align: center;
 }
 
 h5 {
-  margin-left: 31.5em;
-}
-
-h2 {
-  float: left;
-}
-
-a.zim {
-  margin-left: 4em;
-}
-
-h1 {
-  margin-left: 4em;
-  margin-right: 4em;
-  float: left;
-  font: 2em;
+  text-align: center;
+  margin-top: -0.8em;
+  margin-left: 0.8em;
 }
 
 a.keef {
   text-decoration: none;
-}
-
-a.zimi {
-  margin-left: 3.5em;
-}
-
-a.gir {
-  margin-left: 1em;
-}
-
-a.tak {
-  margin-left: 9em;
-}
-
-a.taki {
-  margin-left: 9em;
 }
 
 a {
@@ -127,8 +106,4 @@ a.keef:hover{
   background-color: white;
   color: orange;
   font-weight: bold;
-}
-
-html {
-  font-family: invader, calibri, times new roman;
 }
