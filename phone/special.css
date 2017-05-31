@@ -6,7 +6,6 @@ embedded {
 
 html {
   width: 99%;
-  min-width: 900px;
   background-color: black;
   font-family: invader, calibri, times new roman;
 }
