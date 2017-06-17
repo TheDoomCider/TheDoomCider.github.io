@@ -29,6 +29,7 @@ h3, h1, h4 {
 html {
   background-image: url(p.png);
   background-repeat: no-repeat;
+  background-color: rgb(186,119,187);
 }
 
 ul {
