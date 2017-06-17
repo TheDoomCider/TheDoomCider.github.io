@@ -34,25 +34,16 @@ body {
 }
 
 h3, h1, audio {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: normal;
   font-size: 1.5em;
 }
 
-h5 {
-  padding-left: 30em;
-}
-
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
-}
-
 ul {
   text-decoration: none;
-  padding-left: 16em;
+  padding-left: 2em;
+  padding-right: 1em;
 }
 
 html {
@@ -63,17 +54,6 @@ a:visited {
   color: rgb(0,159,0);
 }
 
-form {
-  padding-left: 19em;
-  margin-top: 1em;
-}
-
-form.special {
-  padding-left: 0em;
-  margin-top: 1em;
-}
-
 audio {
-  margin-top: 1em;
-  padding-left: 9em;
+  margin-top: 2em;
 }
