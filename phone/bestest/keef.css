@@ -1,0 +1,56 @@
+ul {
+  list-style-image: url(kb.png);
+  text-decoration: none;
+  padding-left: 9em;
+}
+
+html {
+  background-image: url(keefb.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+li {
+  height: 3em;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(0,83,83);
+}
+
+a:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+  background-color: rgba(255,255,255,0.4);
+}
+
+h3, h1, audio {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+ul {
+  text-decoration: none;
+  padding-left: 3em;
+  padding-right: 1em;
+}
+
+html {
+  background-repeat: no-repeat;
+}
+
+a:visited {
+  color: rgb(0,159,0);
+}
+
+audio {
+  margin-top: 2em;
+}

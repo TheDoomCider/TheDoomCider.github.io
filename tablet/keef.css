@@ -1,0 +1,79 @@
+ul {
+  list-style-image: url(kb.png);
+  text-decoration: none;
+  padding-left: 9em;
+}
+
+html {
+  background-image: url(keefb.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+li {
+  height: 3em;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(0,83,83);
+}
+
+a:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+body {
+  font-family: arial, calibri, times new roman;
+  background-color: rgba(255,255,255,0.4);
+}
+
+h3, h1, audio {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+ul {
+  text-decoration: none;
+  padding-left: 16em;
+}
+
+html {
+  background-repeat: no-repeat;
+}
+
+a:visited {
+  color: rgb(0,159,0);
+}
+
+form {
+  padding-left: 19em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+audio {
+  margin-top: 1em;
+  padding-left: 9em;
+}
