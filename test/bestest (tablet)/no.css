@@ -1,0 +1,55 @@
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, p, h1 {
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+html {
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+}
+
+ul {
+  list-style-image: url(bee.png);
+  text-decoration: none;
+  padding-left: 20em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0,83,83);
+}
+
+a:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+a:visited {
+  color: rgb(0,159,0);
+}
+
+form {
+  padding-left: 19em;
+  margin-top: 1em;
+}
+
+form.special {
+  padding-left: 0em;
+  margin-top: 1em;
+}
+
+audio {
+  margin-top: 0.7em;
+  padding-left: 16em;
+}
