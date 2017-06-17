@@ -3,7 +3,7 @@ body {
 }
 
 h3, p, h1 {
-  padding-left: 10em;
+  padding-left: 5em;
   padding-right: 10em;
   font-weight: normal;
   font-size: 1.5em;
@@ -22,34 +22,20 @@ html {
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
-  padding-left: 20em;
+  padding-left: 5em;
 }
 
 a {
   text-decoration: none;
-  color: rgb(0,83,83);
-}
-
-a:hover {
-  background-color: yellow;
-  font-weight: bold;
+  color: purple;
 }
 
 a:visited {
-  color: rgb(0,159,0);
+  color: rgb(27,92,129);
 }
 
-form {
-  padding-left: 19em;
-  margin-top: 1em;
-}
-
-form.special {
-  padding-left: 0em;
-  margin-top: 1em;
-}
-
-audio {
-  margin-top: 0.7em;
-  padding-left: 16em;
+a:hover {
+  background-color: pink;
+  color: rgb(186, 0, 80);
+  font-weight: bold;
 }
