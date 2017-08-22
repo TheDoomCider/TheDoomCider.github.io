@@ -12,6 +12,7 @@ html {
 
 li {
   height: 3em;
+  font-weight: bold;
 }
 
 
@@ -43,7 +44,7 @@ h5 {
 
 ul {
   text-decoration: none;
-  padding-left: 8em;
+  padding-left: 7em;
 }
 
 html {
@@ -66,5 +67,5 @@ form.special {
 
 audio {
   margin-top: 1em;
-  padding-left: 9em;
+  padding-left: 8em;
 }
