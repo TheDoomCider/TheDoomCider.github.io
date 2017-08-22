@@ -13,12 +13,6 @@ h5 {
   padding-left: 30em;
 }
 
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
-}
-
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
