@@ -13,7 +13,7 @@ html {
 h3 {
   color: rgb(141,190,64);
   line-height: 0em;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
 }
 
@@ -27,6 +27,7 @@ h4 {
   line-height: 0em;
   font-size: 1em;
   text-align: center;
+  padding-left: 2em;
 }
 
 h5 {
