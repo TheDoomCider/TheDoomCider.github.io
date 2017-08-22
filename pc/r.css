@@ -31,9 +31,6 @@ h5 {
 }
 
 html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
   background-image: url(r.png);
 }
 
