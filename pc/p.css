@@ -29,12 +29,6 @@ h3, h1, audio {
   font-size: 1.5em;
 }
 
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
-}
-
 h5 {
   padding-left: 30em;
 }
