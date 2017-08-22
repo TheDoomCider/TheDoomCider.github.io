@@ -5,6 +5,7 @@ embedded {
 
 
 html {
+  max-width: 1000px;
   background-color: black;
   font-family: invader, calibri, times new roman;
 }
