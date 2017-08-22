@@ -64,4 +64,5 @@ object {
   height: 18em;
   overflow: auto;
   padding: none;
+  padding-right: 1em;
 }
