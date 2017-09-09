@@ -23,8 +23,8 @@ body {
 }
 
 h3, h1, audio {
-  padding-left: 10em;
-  padding-right: 10em;
+  margin-left: 10em;
+  margin-right: 10em;
   font-weight: normal;
   font-size: 1.5em;
 }
