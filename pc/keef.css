@@ -34,8 +34,6 @@ h5 {
 
 html {
   width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
 }
 
 ul {
@@ -45,6 +43,9 @@ ul {
 
 html {
   background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 a:visited {

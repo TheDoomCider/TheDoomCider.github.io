@@ -11,6 +11,9 @@ li {
 html {
   background-image: url(back.png);
   background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center top;
+  background-color: rgb(137,1,23);
 }
 
 #pf {
@@ -49,8 +52,6 @@ h5 {
 
 html {
   width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
 }
 
 form {

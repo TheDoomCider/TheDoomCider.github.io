@@ -13,12 +13,6 @@ h5 {
   padding-left: 30em;
 }
 
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
-}
-
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
@@ -26,9 +20,12 @@ ul {
 }
 
 html {
+  width: 100%;
   background-image: url(zb.png);
   background-repeat: no-repeat;
-  background-color: rgb(136,136,134);
+  background-color: rgb(200,200,199);
+  background-position: left top;
+  background-size: 110%;
 }
 
 a {

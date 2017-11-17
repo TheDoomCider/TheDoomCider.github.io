@@ -36,8 +36,7 @@ h5 {
 
 html {
   width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
+  background-size: 70%;
   background-color: rgb(205,205,205);
 }
 

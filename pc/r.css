@@ -28,8 +28,6 @@ h3, h1, audio {
 
 html {
   width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
 }
 
 h5 {
@@ -38,6 +36,7 @@ h5 {
 
 html {
   background-image: url(r.png);
+  background-size: 150%;
 }
 
 form {

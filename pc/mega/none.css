@@ -15,8 +15,6 @@ h5 {
 
 html {
   width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
 }
 
 ul {
@@ -28,7 +26,9 @@ ul {
 body {
   background-image: url(zb.png);
   background-repeat: no-repeat;
-  background-color: rgb(136,136,134);
+  background-position: center top; 
+  background-color: rgb(134,134,132);
+  background-size: 100%;
 }
 
 a {
@@ -58,5 +58,5 @@ form.special {
 
 audio {
   margin-top: 0.7em;
-  margin-left: 16em;
+  padding-left: 16em;
 }
