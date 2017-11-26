@@ -1,0 +1,58 @@
+body {
+  font-family: arial, calibri, times new roman;
+}
+
+h3, h1, h4 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+li {
+  height: 3em;
+}
+
+ul {
+  list-style-image: url(sb.png);
+  text-decoration: none;
+  padding-left: 2em;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+html {
+  background-image: url(back.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgb(147,21,44);
+  background-size: 40%;
+}
+
+audio, video {
+  margin-top: 3em;
+  padding-left: 1em;
+}
+
+#pf {
+  list-style-image: url(pg.png);
+}
+
+#me {
+  list-style-image: url(me.png);
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  background-color: purple;
+  color: black;
+  font-weight: bold;
+}
