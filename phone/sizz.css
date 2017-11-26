@@ -22,15 +22,12 @@ ul {
   text-decoration: none;
   padding-left: 2em;
   margin-right: 1em;
-  font-weight: bold;
 }
 
 html {
   background-image: url(back.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-color: rgb(147,21,44);
-  background-size: 40%;
 }
 
 audio, video {
