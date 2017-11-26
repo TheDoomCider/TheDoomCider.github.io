@@ -2,6 +2,7 @@ ul {
   list-style-image: url(sizz.png);
   text-decoration: none;
   padding-left: 16em;
+    font-weight: bold;
 }
 
 li {
@@ -11,9 +12,9 @@ li {
 html {
   background-image: url(back.png);
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 50%;
   background-position: center top;
-  background-color: rgb(137,1,23);
+  background-color: rgb(147,21,44);
 }
 
 #pf {
