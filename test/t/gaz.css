@@ -25,6 +25,7 @@ ul {
 }
 
 html {
+  background-size: 150%;
   background-image: url(gazbk.png);
   background-position: top;
   background-repeat: no-repeat;
