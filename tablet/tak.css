@@ -19,13 +19,13 @@ li {
 }
 
 ul {
-  list-style-image: url(mb.png);
+  list-style-image: url(tb.png);
   text-decoration: none;
   padding-left: 3em;
 }
 
 html {
-  background-size: 250%;
+  background-size: 100%;
   background-image: url(takbk.png);
   background-position: top;
   background-repeat: no-repeat;
