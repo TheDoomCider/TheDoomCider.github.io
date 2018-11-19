@@ -1,0 +1,53 @@
+body {
+  font-family: arial, calibri, times new roman;
+  background-color: rgba(255,255,255,0.7);
+}
+
+h3, h1, h4 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  padding-left: 30em;
+}
+
+li {
+  height: 3em;
+}
+
+ul {
+  list-style-image: url(cupcake.png);
+  text-decoration: none;
+  padding-left: 3em;
+}
+
+html {
+  background-size: 250%;
+  background-image: url(girbk.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: mediumpurple;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  background-color: deepskyblue;
+  color: grey;
+  font-weight: bold;
+}
+
+audio, video {
+  padding-top: 2em;
+  padding-left: 1em;
+}
