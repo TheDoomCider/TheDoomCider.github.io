@@ -44,11 +44,11 @@
 
 h4 {
   padding-top: 1em;
-  padding-left: 17em;
+  padding-left: 16em;
 }
 
 ul {
-  padding-left: 20em;
+  padding-left: 19em;
 }
 
 li {
@@ -57,7 +57,7 @@ li {
 
 object {
   width: 100%; 
-  height: 11em;
+  height: 14em;
   overflow: auto;
   padding: none;
 }
