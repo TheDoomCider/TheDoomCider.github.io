@@ -2,27 +2,26 @@ body {
   font-family: arial, calibri, times new roman;
 }
 
-h3, p, h1 {
-  padding-left: 10em;
-  padding-right: 10em;
-  font-weight: normal;
-  font-size: 1.5em;
+h3, p, h1, h4 {
+  padding-left: 5em;
+  padding-right: 5em;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 h5 {
   padding-left: 30em;
 }
 
-html {
-  width: 100%;
-  min-width: 900px;
-  max-width: 1400px;
+li {
+  padding-bottom: 0.5em;
 }
 
 ul {
   list-style-image: url(bee.png);
   text-decoration: none;
-  padding-left: 20em;
+  padding-left: 3em;
+  padding-right: 2em;
 }
 
 a {
@@ -40,17 +39,7 @@ a:hover {
   font-weight: bold;
 }
 
-form {
-  padding-left: 19em;
-  margin-top: 1em;
-}
-
-form.special {
-  padding-left: 0em;
-  margin-top: 1em;
-}
-
 audio {
   margin-top: 0.7em;
- margin-left: 16em;
+  padding-left: 16em;
 }
